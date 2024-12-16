@@ -8,6 +8,7 @@
   | Reset
   |============================
 */
+
 .list {
   list-style: none;
 }
@@ -56,5 +57,166 @@ button {
 */
 
 body {
-  font-family: var(--primary-font), sans-serif;
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+.header {
+}
+.header-txt {
+  font-size: 25px;
+  line-height: 132%;
+  color: #272832;
+}
+
+/**
+  |============================
+  | Hero Section
+  |============================
+*/
+
+.hero-section {
+}
+.hero-image {
+}
+.hero-title-name {
+  font-size: 47px;
+  line-height: 94%;
+  color: #fff;
+}
+.hero-undertitle {
+  font-size: 48px;
+  line-height: 92%;
+  color: #fff;
+}
+.hero-title-bcg {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-btn {
+  font-size: 17px;
+  line-height: 118%;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+
+/**
+  |============================
+  | Second Section
+  |============================
+*/
+
+.about-section {
+  background: #ededed;
+}
+.about-title {
+  font-size: 31px;
+  line-height: 116%;
+  color: #696969;
+}
+.about-txt {
+  font-size: 14px;
+  line-height: 143%;
+  color: #696969;
+}
+.about-list {
+}
+.about-list-box {
+  background-color: #f7f7f7;
+}
+.about-list-item {
+}
+.about-diag-txt {
+  font-size: 13px;
+  line-height: 154%;
+  text-transform: uppercase;
+  color: #666;
+  background: #d9d9d9;
+}
+
+/**
+  |============================
+  | Third Section
+  |============================
+*/
+
+.project-section {
+}
+.project-title {
+  font-size: 31px;
+  line-height: 116%;
+  color: #4d4d4d;
+}
+.project-list {
+}
+.project-list-item {
+}
+.project-link {
+}
+.project-link-pic {
+}
+.project-pic-uppertitle {
+}
+.project-pic-undertitle {
+}
+
+/**
+  |============================
+  | Forth Section
+  |============================
+*/
+
+.form-section {
+  background: #ededed;
+}
+.form-title {
+  font-size: 31px;
+  line-height: 116%;
+  color: #696969;
+}
+.form-txt {
+  font-size: 14px;
+  line-height: 143%;
+  color: #a3a3a3;
+}
+.form-main {
+}
+.form-area-txt {
+  font-size: 20px;
+  line-height: 220%;
+  color: #d1d1d1;
+}
+.form-area {
+}
+.form-btn {
+  font-size: 20px;
+  line-height: 220%;
+  color: #fff;
+  background: #d1d1d1;
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+.footer {
+}
+.footer-name {
+  font-size: 15px;
+  line-height: 147%;
+  color: #c4c4c4;
+}
+.footer-list {
+}
+.footer-list-item {
 }
