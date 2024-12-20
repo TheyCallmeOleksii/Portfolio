@@ -122,14 +122,13 @@
                     </p>
                 </div>
                 <form action="#" method="POST" class="form-main">
-                    <label for="name" class="form-area-txt">Name</label>
-                    <input type="text" id="name" name="name" required class="form-area">
-                    <label for="email" class="form-area-txt">Email address</label>
-                    <input type="email" id="email" name="email" required class="form-area">
-                    <label for="budget" class="form-area-txt">Budget (optional)</label>
-                    <input type="number" id="budget" name="budget" placeholder="" class="form-area">
-                    <label for="project" class="form-area-txt">Describe your project</label>
-                    <textarea id="project" name="project" rows="5" required class="form-area"></textarea>
+                    <input type="text" id="name" name="name" placeholder="Name" required class="name-class form-area">
+                    <input type="email" id="email" name="email" placeholder="Email address" required
+                        class="email-class form-area">
+                    <input type="number" id="budget" name="budget" placeholder="Budget (optional)"
+                        class="budget-class form-area">
+                    <textarea id="project" name="project" rows="5" placeholder="Describe your project" required
+                        class="describe-class form-area"></textarea>
                     <input type="submit" value="Send inquiry" class="form-btn">
                 </form>
             </div>
@@ -138,7 +137,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-container">
             <p class="footer-name">Oleksii Tiabut</p>
             <ul class="footer-list list">
                 <li class="footer-list-item">

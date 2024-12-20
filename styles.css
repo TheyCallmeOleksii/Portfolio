@@ -273,6 +273,7 @@ body {
   display: flex;
 }
 .form-box {
+  padding-right: 83px;
 }
 .form-title {
   margin-bottom: 35px;
@@ -296,12 +297,50 @@ body {
 .form-area {
   width: 620px;
   height: 58px;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #333;
+  border: transparent;
+  /* border-radius: 4px; */
 }
+
+textarea.form-area {
+  resize: none;
+}
+
+.form-area::placeholder {
+  color: #a3a3a3;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .form-btn {
+  font-weight: 400;
   font-size: 20px;
   line-height: 220%;
   color: #fff;
   background: #d1d1d1;
+  border: none;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background: #a3a3a3;
+}
+
+.name-class {
+  background: #f7f7f7;
+}
+.email-class {
+  background: #fff;
+}
+.budget-class {
+  background: #f7f7f7;
+}
+.describe-class {
+  background: #fff;
+  height: 128px;
 }
 
 /**
@@ -312,7 +351,12 @@ body {
 
 .footer {
 }
+.footer-container {
+  display: flex;
+}
 .footer-name {
+  margin-top: 35px;
+  margin-bottom: 35px;
   font-size: 15px;
   line-height: 147%;
   color: #c4c4c4;
