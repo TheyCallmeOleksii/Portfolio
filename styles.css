@@ -113,7 +113,10 @@ body {
 */
 
 .hero-section {
-  background-image: url(./images/main-background.jpg);
+  background-color: rgba(253, 110, 110, 0.4);
+  background-image: url(./images/main-bg.png);
+  background-blend-mode: overlay;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -203,19 +206,20 @@ body {
 .about-list {
 }
 .about-list-box {
-  display: flex;
-
-  margin-bottom: 18px;
-  background-color: #f7f7f7;
 }
 .about-list-item-top {
+  margin-bottom: 18px;
+  background-color: #f7f7f7;
   width: 100%;
   background: #ededed;
 }
 .about-list-item-middle {
+  margin-bottom: 18px;
+  background-color: #f7f7f7;
   width: 70%;
 }
 .about-list-item-bottom {
+  margin-bottom: 18px;
   width: 40%;
   background-color: #f7f7f7;
 }
