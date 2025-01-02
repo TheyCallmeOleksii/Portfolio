@@ -18,8 +18,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Modern normalize -->
     <link href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <!-- Styles CSS -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -83,28 +85,24 @@
         <section class="project-section">
             <div class="container">
                 <h2 class="project-title">My Projects</h2>
-                <ul class="project-list list">
-                    <li class="project-list-item">
-                        <a href="https://theycallmeoleksii.github.io/Individual-project/" class="project-link"><img
-                                src="./images/ori-first-project.webp" alt="" class="project-link-pic">
-                            <p class="project-pic-uppertitle"></p>
-                            <p class="project-pic-undertitle"></p>
-                        </a>
-                    </li>
-                    <li class="project-list-item">
-                        <a href="" class="project-link"><img src="" alt="" class="project-link-pic">
-                            <p class="project-pic-uppertitle"></p>
-                            <p class="project-pic-undertitle"></p>
-                        </a>
-                    </li>
-                    <li class="project-list-item">
-                        <a href="" class="project-link"><img src="" alt="" class="project-link-pic">
-                            <p class="project-pic-uppertitle"></p>
-                            <p class="project-pic-undertitle"></p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="https://theycallmeoleksii.github.io/Individual-project/"
+                                target="_blank" rel="noopener noreferrer"><img
+                                    src="./images/project-images/ori-first-project.webp" alt="Project 1"
+                                    class="swiper-img"></a></div>
+                        <div class="swiper-slide"><a href="https://theycallmeoleksii.github.io/goit-markup-hw-07/"
+                                target="_blank" rel="noopener noreferrer"><img
+                                    src="./images/project-images/school-project.jpg" alt="Project 2"
+                                    class="swiper-img"></a></div>
+                        <div class="swiper-slide"><a href="https://imiryna.github.io/book_shelf/index.html"
+                                target="_blank" rel="noopener noreferrer"><img
+                                    src="./images/project-images/bookshelf-project.jpg" alt="Project 3"
+                                    class="swiper-img"></a></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
         </section>
 
         <!-- Forth Section -->
@@ -158,6 +156,8 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper"></script>
 </body>
 
 </html>
