@@ -389,6 +389,16 @@ textarea.form-area {
   color: #c4c4c4;
 }
 .footer-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-left: auto;
 }
 .footer-list-item {
+}
+
+.footer-svg-link {
+}
+
+.footer-list-svg {
 }
